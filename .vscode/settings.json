@@ -1,0 +1,8 @@
+{
+    "editor.defaultFormatter": "denoland.vscode-deno",
+    "editor.formatOnSave": true,
+    "cSpell.words": [
+        "libssh",
+        "vpsctl"
+    ]
+}

@@ -1,0 +1,17 @@
+# macOS system file
+.DS_Store
+
+# temp files
+**/tmp
+**/*.tmp
+
+# Deno cache (if DENO_DIR is set inside the project)
+.den o/
+deno_dir/
+
+# Vendored dependencies (if using `deno vendor`)
+vendor/
+
+# Build output / bundles
+dist/
+build/
