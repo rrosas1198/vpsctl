@@ -1,0 +1,14 @@
+{
+    "name": "@vpsctl/ssh",
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "Native SSH client for Deno using libssh2 FFI",
+    "exports": "./src/mod.ts",
+    "repository": "https://github.com/rrosas1198/vpsctl",
+    "compilerOptions": {
+        "lib": ["deno.unstable"]
+    },
+    "tasks": {
+        "build:libs": "bash ./tools/build-libssh2.sh"
+    }
+}
